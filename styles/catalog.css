@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(82, 35, 7);
+}
+
+.page-title{
+    color: rgb(247, 218, 20);
+}
+
+.card-img-top{
+    position: relative;
+    border: none;
+    transition: .5s;
+}
+
+.card{
+    border: none;
+}
+
+.card,
+.card-img-top{
+    border-radius: 25px;
+}
+
+.card-text-cat{
+    color: rgb(247, 218, 20);
+    font-size: 24px;
+}
+
+.card-text-cat{
+    position: absolute;
+    inset: 35%;
+}
+
+.col{
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card:hover .card-img-top{
+    transform: scale(1.1);
+}

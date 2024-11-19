@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/mystyles.css" />
+    <link rel="stylesheet" href="styles/bg-video.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="files/favicon_io//apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="files/favicon_io//favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="files/favicon_io//favicon-16x16.png"
+    />
+    <link rel="manifest" href="files/favicon_io//site.webmanifest" />
+
+    <a href="files/favicon_io/"></a>
+
+    <title>MoscowBakery</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg"
+        style="background-color: rgb(82, 35, 7)"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="files/noroot.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">&#9776;</span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="catalog.html"
+                  >catalog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="discounts.html">discounts</a>
+              </li>
+            </ul>
+            <div class="social-links">
+              <a href="#"
+                ><img
+                  src="files/tg-logo.png"
+                  style="width: 40px; border-radius: 50px"
+                  alt="telegram"
+              /></a>
+              <a href="#"
+                ><img
+                  src="files/vk-logo.png"
+                  style="width: 40px; border-radius: 50px"
+                  alt="vk"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="bg-video">
+        <video
+          src="files/3119255-uhd_3840_2160_25fps.mp4"
+          type="video/mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+        <div class="effect"></div>
+        <div class="video-text">
+          <h1>Moscow Bakery</h1>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div
+                class="btn-group my-5"
+                role="group"
+                aria-label="Basic example"
+              >
+                <a href="catalog.html" class="btn btn-primary">Pies</a>
+                <a href="catalog.html" class="btn btn-primary">Cakes</a>
+                <a href="catalog.html" class="btn btn-primary">Bread</a>
+                <a href="catalog.html" class="btn btn-primary">Cookie</a>
+              </div>
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="true"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/_1.png" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/__5.png" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/__7.png" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/pht.png" class="d-block w-100" alt="..." />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="mt-5 p-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 footer-text text-center">
+            <p><a href="#">All Rights Reserved 2024</a></p>
+          </div>
+          <div class="col-lg-4 col-md-12 footer-text text-center">
+            <p><a href="#">User Agreement</a></p>
+          </div>
+          <div class="col-lg-4 col-md-12 media-links">
+            <a href="#"
+              ><img
+                src="files/tg-logo.png"
+                style="width: 40px; border-radius: 50px"
+                alt="telegram"
+            /></a>
+            <a href="#"
+              ><img
+                src="files/vk-logo.png"
+                style="width: 40px; border-radius: 50px"
+                alt="vk"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
